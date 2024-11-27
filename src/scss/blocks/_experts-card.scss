@@ -1,0 +1,44 @@
+
+.experts-card {
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        color: var(--color-light);
+        padding: var(--padding-card);
+        max-width: 900px;
+        
+        background-color: var(--color-gray);
+        @include mobile {
+            flex-direction: column;
+            row-gap: 30px;
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        min-width: 400px;
+        
+        
+    }
+
+    &__image {
+        max-width: 400px;
+        min-height: 0; 
+    }
+    &__description{
+        &--list{
+            text-align: left;
+        }
+        
+
+    }
+
+    @include mobile {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 27px;
+    }
+}

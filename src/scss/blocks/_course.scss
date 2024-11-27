@@ -1,0 +1,16 @@
+.course{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: var(--section-padding-y);
+  
+    &__body{
+        max-width: 800px;
+        
+        padding: var(--padding-card);
+    }
+    &__promo{
+        text-align: center;
+    }
+    
+}

@@ -1,0 +1,54 @@
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# Системные файлы
+*.pid
+*.seed
+*.sublime-workspace
+
+# Папки временных файлов
+tmp/
+temp/
+cache/
+
+# Папка с зависимостями (Node.js)
+node_modules/
+
+# Папка с зависимостями (Python)
+__pycache__/
+*.pyc
+*.pyo
+env/
+venv/
+
+# Папка с зависимостями (Java)
+target/
+*.class
+
+# Файлы конфигурации IDE
+*.idea/
+*.vscode/
+*.sublime-project
+
+# Файлы настроек среды
+.env
+.env.local
+.env.*.local
+
+# Файлы сборки
+dist/
+build/
+
+# Другие
+*.bak
+*.swp
+*.swo
+*.css
+
+
+reserve.html

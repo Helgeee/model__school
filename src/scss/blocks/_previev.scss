@@ -1,0 +1,48 @@
+
+.preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: var(--section-padding-y);
+    min-height: 600px;
+
+    @include desktop {
+        row-gap: 60px;
+    }
+  
+    @include tablet-above {
+        max-width: 1200px;
+        padding: 5px;
+    }
+  
+    @include tablet {
+        max-width: 1000px;
+    }
+    &__main {
+
+   
+
+    @include mobile {
+        flex-direction: column;
+    }
+  }
+  
+    &__body {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 824px;
+        height: 100%;
+        row-gap: 10px;
+  
+        @include mobile {
+            display: contents;
+            height: auto;
+            order: 1;
+        }
+    }
+    &__title{
+        text-transform: uppercase;
+    }
+}

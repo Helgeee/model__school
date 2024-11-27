@@ -1,0 +1,15 @@
+.experts{
+    display: flex;
+    justify-content: center;
+
+        &__list{
+            gap: 10px;
+            &:not(last-child){
+                margin-bottom: 100px;
+    
+                @include mobile{
+                    margin-bottom: 70px;
+                }
+            }
+        }
+}

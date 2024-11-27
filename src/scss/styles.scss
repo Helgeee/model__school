@@ -1,0 +1,26 @@
+@import
+  'normalize',
+  'fonts',
+  'mixins',
+  'media',
+  'variables',
+  'utils',
+  'globals';
+
+  @import
+  'blocks/header',
+  'blocks/section',
+  'blocks/soc1als',
+  'blocks/previev',
+  'blocks/course',
+  'blocks/experts-card',
+  'blocks/experts',
+  'blocks/motivation',
+  'blocks/helps',
+  'blocks/grid',
+  'blocks/helps-card',
+  'blocks/programs',
+  'blocks/price',
+  'blocks/price-card',
+  'blocks/button',
+  'blocks/footer';

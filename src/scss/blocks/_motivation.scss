@@ -1,0 +1,26 @@
+.motivation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: var(--section-padding-y);
+    flex-direction: column;
+  
+    &__body{
+        max-width: 800px;
+        border: var(--border);
+        border-radius: var(--border-radius);
+        padding: var(--padding-card);
+        
+    }
+    &__misiion{
+        
+        &-title{
+            text-align: center;
+        }
+        &-description{
+            max-width: 800px;
+            text-align: center;
+        }
+    }
+    
+}

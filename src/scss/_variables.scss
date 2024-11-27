@@ -1,0 +1,44 @@
+:root {
+    --color-dark: #2d2d2d;
+    --color-dark-alt: #292A32;
+    --color-gray: #4d4d4d81;
+    --color-light: #FFFFFF;
+    --color-accent: #ff0000;
+  
+    --border: 1px solid var(--color-gray);
+    --border-radius: 20px;
+    --border-radius-small: 7px;
+    --border-radius-large: 45px;
+
+    --background-color: #1a1615;
+
+      // background-image:   ;
+  
+    // --background-color: var(--color-dark) ;
+
+    --padding-card: 25px;
+    
+    --blur: blur(5px);
+    --shadow: 0 5px 0 0 var(--color-dark);
+    
+    --font-family-title: 'Space Grotesk', sans-serif;
+    --font-family-base: 'Space Grotesk', sans-serif;
+  
+    --container-width: 1240px;
+    --container-padding-x: 20px;
+  
+    --section-padding-y: 70px;
+  
+    --input-height: 59px;
+    --button-height: 68px;
+  
+    --transition-duration: 0.2s;
+  
+    @include desktop {
+      --section-padding-y: 50px;
+    }
+  
+    @include mobile {
+      --section-padding-y: 30px;
+    }
+  }
